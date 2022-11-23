@@ -33,7 +33,7 @@
   }
     
   .bg-img{
-    background-image:  linear-gradient(rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.785)), url(/other/images/indexmain.jpg);
+    background-image:  linear-gradient(rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.785)), url(other/images/indexmain.jpg);
     filter: blur(3px);
     background-repeat: no-repeat;
     background-size: 100%;
