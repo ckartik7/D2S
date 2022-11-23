@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Lobster&family=Poppins&family=Roboto:wght@500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/other/css/donation.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="topnav">
+          <div>
+            <a href="/donation.html" style="font-weight: 300;">DONATE</a>
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a>
+            <a href="/index.html">Home</a>
+          </div>
+          
+        </div>
+      </header>
+      <main>
+        <div class="container">
+            <h1>Contribute for the World</h1>
+            <p>Donate for the cause of your choice.</br>We will ensure that your contribution reaches trustable NGOs.</p>
+            <div class="donation-box">
+                <div class="money-donate">
+                    <h3>Donate Money</h3>
+                    <form>
+                        <div class="input-row">
+                            <div class="input-group">
+                              <label for="name">Name</label>
+                              <input type="text" id="name" placeholder="Enter Name">  
+                            </div>
+                            <div class="input-group">
+                                <label for="phone">Phone</label>
+                                <input type="text" id="phone" placeholder="9999999999">
+                              </div>
+                            </div>
+                            <div class="input-row">
+                                <div class="input-group">
+                                  <label for="amount">Amount</label>
+                                  <input type="number" id="amount" placeholder="₹ 250">
+                                </div>
+                                <div class="input-group">
+                                    <label for="purpose">Choose your purpose</label>
+                                    <select id="purpose" name="purpose">
+                                      <option value="education">Education</option>
+                                      <option value="disasterrelief">Disaster Relief</option>
+                                      <option value="foodforneedy">Food for Needy</option>
+                                      <option value="animal">Animal Care</option>
+                                      <option value="environment">Environment</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <button type="submit" onclick="document.location=' '">DONATE</button>
+                    </form>
+                </div>
+                <div class="other-donate">
+                    <h3>Donate other goods</h3>
+                    <form>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" placeholder="Enter Name">
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label for="address">Address</label>
+                                <input type="text" id="address" placeholder="We will pick your donation from your address">
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label for="options">Select from options</label>
+                                <select id="options" name="options">
+                                      <option value="books">Books</option>
+                                      <option value="food">Food</option>
+                                      <option value="clothes">Clothes</option>
+                                </select>
+                            </div>
+                            <div class="input-group">
+                                <label for="img">Select image:</label>
+                                <input type="file" id="img" name="img" accept="image/*">
+                            </div>
+                        </div>
+                        <button type="submit">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </div>
+      </main>
+      <footer>
+        <h3>Be Kind</h3>
+        <p>Join the cause</p>
+      </footer>
+</body>

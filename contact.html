@@ -1,0 +1,122 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Lobster&family=Poppins&family=Roboto:wght@500&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="/other/css/contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="topnav">
+      <div>
+        <a href="/donation.html" style="font-weight: 300;">DONATE</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/index.html">Home</a>
+      </div>
+      
+    </div>
+  </header>
+  <main>
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p>We would love to have you in community.</br> Feel free to get in touch with us.</p>
+        <div class="contact-box">
+          <div class="contact-left">
+            <h3>Let us contact you</h3>
+            <div id="error_message">
+     
+            </div>
+            <form action="https://formsubmit.co/donatesave2@gmail.com" method="POST" id="form" onsubmit = "return validate();">
+              <div class="input-row">
+                <div class="input-group">
+                  <label for="name">Name</label>
+                  <input type="text" name="Name" id="name" placeholder="Enter Name">  
+                </div>
+                <div>
+                  <label for="phone">Phone</label>
+                  <input type="text" name="Phone" id="phone" placeholder="9999999999">
+                </div>
+              </div>
+              <div class="input-row">
+                <div>
+                  <label for="email">EMail</label>
+                  <input type="email" name="Email" id="email" placeholder="mail@gmail.com">
+                </div>
+                <div>
+                  <label for="state">State</label>
+                  <input type="text" name="State" id="state" placeholder="Uttar Pradesh">
+                </div>
+              </div>
+              <label>Message</label>
+              <textarea id="message" name="Message" rows="5" placearea="Share your message for us"></textarea>
+
+              <button type="submit">SUBMIT</button>
+            </form> 
+          </div>
+          <div class="contact-right">
+            <h3>Reach Us</h3>
+            <table>
+              <tr>
+                <td>Email</td>
+                <td>Contactus@gmail.com</td>
+              </tr>
+              
+              <tr>
+                <td>Phone No.</td>
+                <td>+91 8978697800</td>
+              </tr>
+              <tr>
+                <td>Address</td>
+                <td>212, Ground floor, 7th cross</br>Koromangla, Bangalore 560001</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <h3>Be Kind</h3>
+      <p>Join the cause</p>
+    </footer>
+    <script>
+      function validate(){
+      var name = document.getElementById("name").value;
+      var phone = document.getElementById("phone").value;
+      var email = document.getElementById("email").value;
+      var error_message = document.getElementById("error_message");
+  
+      error_message.style.padding = "10px";
+  
+      var text;
+      if(name.length ==0){
+        text = "Please Enter valid Name";
+        error_message.innerHTML = text;
+        return false;
+      }
+      if(isNaN(phone) || phone.length != 10){
+        text = "Please Enter valid Phone Number";
+        error_message.innerHTML = text;
+        return false;
+      }
+      if(email.indexOf("@") == -1 || email.length < 6){
+        text = "Please Enter valid Email";
+        error_message.innerHTML = text;
+        return false;
+      }
+      
+      alert("Form Submitted Successfully!\nWe will contact you soon.");
+      return true;
+    }
+    </script>
+</body>
+</html>
