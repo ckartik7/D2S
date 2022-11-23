@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+  }
+
+  body{
+    color: black
+  }
+
+  .topnav {
+    background-image: linear-gradient(rgb(255, 201, 101), rgb(255, 47, 11));
+    overflow: hidden;
+    height: 7vh;
+  }
+ 
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    color: black;
+    box-shadow: 10px 10px 40px black;
+  }
+
+  main{
+    background: #fff;
+    font-size: 14px;
+  }
+  .container{
+    width: 80%;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    margin: 50px auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  h1{
+    font-size: 50px;
+  }
+
+  .container p{
+    font-size: 22px;
+    color: gray;
+  }
+  .contact-box{
+    background: #fff;
+    display: flex;
+    border: #0a0b14 1px solid;
+    border-radius: 5px;
+  }
+  .contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+  }
+  .contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background-image: linear-gradient(rgb(255, 201, 101), rgb(255, 47, 11));
+    color: #fff;
+  }
+
+  h1{
+    margin-bottom: 10px;
+  }
+  .container p{
+    margin-bottom: 40px;
+  }
+
+  .input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .input-row .input-group{
+    flex-basis: 45%;
+  }
+  input{
+    width:100%;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+  }
+
+  textarea{
+    width:100%;
+    border: 1px solid #ccc;
+    outline:none;
+  }
+  label{
+    margin-bottom: 6px;
+    display: block;
+    color: black;
+  }
+
+  button{
+    background-image: linear-gradient(rgb(255, 201, 101), rgb(255, 47, 11));
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height:35px;
+    border-radius: 30px;
+    margin-top: 20px;
+  }
+  button:hover{
+    box-shadow: 10px 10px 20px black;
+    color: white;
+  }
+
+  .contact-left h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .contact-left h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  tr td:first-child{
+    padding-right: 20px;
+    
+  }
+  tr td{
+    padding-top: 20px;
+    color: #fff;
+  }
+
+  input{
+    border-radius: 4px;
+    height: 25px;
+  }
+
+  #error_message{
+    margin-bottom: 20px;
+    background: #fe8b8e;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }
+  
+  footer{
+    margin-top: 0px;
+    color: white;
+    height: 170px;
+    background-color: #0a0b14;
+    text-align: center;
+    padding: 25px;
+  }         
+  
+  footer h3{
+    font-family: 'Lobster', cursive;
+    color: #ff4949;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }

@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+  }
+                                 /* header style */
+  .main-header{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    
+  }
+  .topnav {
+    background-image: linear-gradient(rgb(255, 201, 101), rgb(255, 47, 11));
+    overflow: hidden;
+    height: 7vh;
+  }
+  
+
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    color: black;
+    box-shadow: 10px 10px 40px black;
+  }
+    
+  .bg-img{
+    background-image:  linear-gradient(rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.785)), url(/other/images/indexmain.jpg);
+    filter: blur(3px);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+  }
+  
+  .header-text{
+    position: absolute;
+    top: 300px;
+    left: 245px;
+  }
+  
+  .header-text h1{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 35px;
+  }
+  
+  .header-text p{
+    font-size: 18px;
+    color: rgb(255, 250, 250);
+    margin-bottom: 35px;
+    font-weight: bold;
+  }
+  
+  .top-button{
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    background-image: linear-gradient(rgb(255, 201, 101),rgb(255, 47, 11));
+    cursor: pointer;
+  }
+  
+  .top-button:hover{
+    color: black;
+    box-shadow: 10px 10px 40px black;
+  }
+  
+  .donate-today{
+    height: 55vh;
+    width: 100%;
+    text-align: center;
+  }                       
+  
+  .default{
+    border: 2px solid tomato;
+    background-color:  rgb(253, 229, 225);
+    color: tomato;
+  }
+  
+  h2{
+    padding-top: 100px;
+    font-size: 50px;
+  }
+  
+  .donate-today p{
+    font-size: 22px;
+    color: gray;
+    margin-bottom: 50px;
+    font-weight: 100;
+    margin-top: 10px;
+  }
+  
+  .number-input{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    width: 685px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .donation-plan{
+    text-align: center;
+  }
+  
+  .donation-plan p{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 50px;
+    font-weight: 100;
+    margin-top: 30px;
+  }
+  
+  .card-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card{
+    width: 340px;
+    height: 340px;
+    margin: 0 10px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 45px 20px 30px 35px;
+  }
+  
+  .card h3{
+    margin-top: 23px;
+    font-size: 25px;
+  }
+  
+  #card1{
+    background-color: #e2fdffdf;
+  }
+  
+  #card2{
+    background-color: #fde3e3e3;
+  }
+  
+  #card3{
+    background-color: #fff4d6d8 ;
+  }
+  
+  
+  .their-lives{
+    display: flex;
+    margin: 150px 150px 100px 150px;
+  }
+  
+  .lives-text{
+    width: 50%;
+    height: 525px;
+    padding-right: 50px;
+  }
+  
+  .lives-text p{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 20px;
+    font-weight: 100;
+    margin-top: 20px;
+  }
+  
+  .lives-text h2{
+    padding-top: 40px;
+  }
+  
+  .lives-image{
+    width: 50%;
+  }
+  
+  .lives-image img{
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px black;
+  }
+  
+  .second-button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-image: linear-gradient(rgb(255, 201, 101),rgb(255, 47, 11));
+  
+  }
+  
+  .second-button:hover{
+    color: black;
+    box-shadow: 15px 15px 30px black;
+  }
+  
+                             /* They need us to suvive */
+  
+  .they-need-us{
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }    
+  
+  .their-text{
+    width: 50%;
+    height: 525px;
+    padding-left: 60px;
+  }
+  
+                                /* NEWS section */
+  
+  .news{
+    text-align: center;
+  }      
+  
+  .news h2{
+    padding-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .news>p{
+    font-size: 18px;
+    color: gray;
+    font-weight: 100;
+  }
+  
+  .news-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+  
+  .news-card{
+    height: 475px;
+    width: 320px;
+    text-align: left;
+    border-radius: 10px;
+    background-color : rgb(252, 240, 224) ;
+    box-shadow: 10px 10px 30px black;
+  }
+  
+  .card-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card-image{
+    height: 40%;
+  }
+  
+  .card-text{
+    height: 60%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .card-text h4{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card-text p{
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 40px;
+    font-weight: 100;
+    margin-top: 20px;
+  }
+  
+  .read-more{
+    width: 120px;
+    height: 45px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(rgb(255, 201, 101),rgb(255, 47, 11));
+  }
+  
+  .read-more:hover {
+    box-shadow: 10px 10px 20px black;
+    color: white;
+  }
+  
+  .read-more a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .read-more a:hover{
+    color: white;
+  }
+  
+  .get-my-update{
+    text-align: center;
+  }
+  
+  form{
+    width: 750px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 400px;
+    background-color: rgba(255, 228, 196, 0.867);
+  }
+  
+  input[type="email"]{
+    width: 250px;
+    height: 42px;
+    border: none;
+    background-color: #c5c4c4d4;
+    border-radius: 5px 0 0 5px;
+    padding: 1px 20px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  
+  button[type="submit"]{
+    height: 42px;
+    width: 150px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #fe4b4b;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover{
+    color: rgb(185, 185, 185);
+  }
+  
+  .get-my-update p{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 40px;
+    font-weight: 100;
+    margin-top: 20px;
+  }
+  
+  footer{
+    margin-top: 120px;
+    color: white;
+    height: 170px;
+    background-color: #0a0b14;
+    text-align: center;
+    padding: 25px;
+  }         
+  
+  footer h3{
+    font-family: 'Lobster', cursive;
+    color: #ff4949;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+ 
+  .social-container {
+    width: 400px;
+    margin: 40vh auto;
+    text-align: center;
+}
